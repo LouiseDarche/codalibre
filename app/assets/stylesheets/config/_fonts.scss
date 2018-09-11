@@ -6,11 +6,10 @@ $body-font: "Roboto", "Helvetica", "sans-serif";
 $headers-font: "Delius Unicase", "cursive", "Helvetica", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
+@font-face {
+  font-family: "Leira-Lite";
+  // src: font-url('Leira-Lite.eot');
+  src: font-url('Leira-Lite.woff') format('woff'),
+       font-url('Leira-Lite.ttf') format('truetype')
+}
+$my-font: "Leira-Lite";

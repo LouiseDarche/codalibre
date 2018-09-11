@@ -51,3 +51,15 @@ $border-radius-small: 2px;
 }
 
 // Override other variables below!
+//global rules
+$body-bg: $light-pink;
+$h1-font-family: $my-font;
+h1 {
+  margin: 0;
+}
+
+//navbar links
+.navbar-links>a {
+  color: $purple, !important;
+  text-decoration: none;
+}
