@@ -11,6 +11,7 @@
   width: 100%;
   padding: 15px;
   z-index: 50;
+  background-color: rgba(255,255,255,0.4);
 }
 
 .navbar img {
@@ -31,6 +32,7 @@
   &:hover {
     //faire un hover plus stylé
     text-decoration: underline;
+    color: $yellow;
   }
 }
 
