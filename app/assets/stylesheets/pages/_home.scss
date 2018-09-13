@@ -51,11 +51,32 @@ h1 {
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
 }
 
-.banner-home h3 {
-  font-weight: lighter;
-  opacity: 0.8;
-  margin-bottom: 50px;
+.container-homepage h3 {
+  font-weight: bold;
+  margin-bottom: 0;
 }
+
+.banner-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.underline {
+  height: 10px;
+}
+
+// .banner-home h3 {
+//   font-weight: lighter;
+//   opacity: 0.8;
+//   margin-bottom: 50px;
+// }
 
 .banner-home .btn-rounded-white {
   margin-top: 20px;
@@ -76,10 +97,23 @@ h1 {
   }
 }
 
+p {
+    font-weight: lighter;
+  }
+
+.banner-full p a {
+  color: $purple;
+  font-weight: bold;
+}
+
 .width-70 {
   width: 70%;
 }
 
 .banner-full ul {
   margin-bottom: 50px;
+}
+
+.italic {
+  font-style: italic;
 }
