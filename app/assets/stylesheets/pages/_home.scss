@@ -44,6 +44,7 @@ h1 {
 .banner-content {
   margin: 40px;
   text-align: left;
+  position: relative;
 }
 
 .banner-home h1 {
@@ -65,11 +66,16 @@ h1 {
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: $yellow;
+}
+
+.pink {
+  background-color: $pink;
 }
 
 .underline {
   height: 10px;
+  width: 60%;
 }
 
 // .banner-home h3 {
@@ -88,7 +94,7 @@ h1 {
   background-size: cover !important;
   background-position: center;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   text-align: center;
   justify-content: left;
 
@@ -108,6 +114,7 @@ p {
 
 .width-70 {
   width: 70%;
+  margin-bottom: 3%;
 }
 
 .banner-full ul {
@@ -117,3 +124,41 @@ p {
 .italic {
   font-style: italic;
 }
+
+
+
+//scroll down arrow
+
+.scroll-down {
+  font-size: 40px;
+  color: $purple;
+}
+
+.under-text-arrow {
+  text-align: center;
+  position: absolute;
+}
+// .band {
+//   height: 1px;
+//   background-color: $purple;
+//   width: 50px;
+// }
+
+// .down-arrow {
+//   position: relative;
+//   width: 10%;
+// }
+
+// .left {
+//   transform: rotate(45deg);
+//   position: absolute;
+//   left: -2.5em;
+//   top: -1em;
+// }
+
+// .right {
+//   transform: rotate(135deg);
+//   position: absolute;
+//   top: -1em;
+//   right: -2.25em;
+// }
