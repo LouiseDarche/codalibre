@@ -1,7 +1,9 @@
 <div class="container-homepage">
   <%= render 'navbar' %>
   <header class="full-page-banner background-homepage" >
-    <h1 class="white">Whaaaaat</h1>
+    <h1 class="white">Le collectif d'entraide féminine dans la tech</h1>
+    <p>Une communauté bienveillante dans laquelle affirmer son projet, progresser et échanger, sans bullshit</p>
+    <p><%= link_to "nous contacter", "#nous-contacter" %></p>
     <%= link_to "#qui-nous-sommes" do %>
       <i class="fas fa-angle-down scroll-down"></i>
       <!-- <div class="down-arrow">
@@ -19,51 +21,24 @@
           <h3>Qui nous sommes</h3>
           <div class="underline yellow"></div>
         </div>
-        <p><strong>Coda Libre</strong> est un collectif de femmes dont l'ambition est de créer un cadre bienveillant permettant à toutes de valoriser ses expériences et approfondir ses connaissances dans les métiers du numérique.
+        <p>Coda Libre est un collectif de femmes dont l'ambition est d’offrir un cadre bienveillant permettant à chacune de valoriser ses expériences et approfondir ses connaissances dans les métiers du numérique.</p>
+
+        <p>Nous sommes une communauté dans laquelle chacune peut affirmer son projet, chercher du soutien, progresser et partager ses expériences.</p>
+        <p>Notre volonté est d’aider les femmes à surpasser les biais qui peuvent exister dans la tech, à travers des actions concrètes.
+        Au travers de mentorat pour partager son parcours, de masterclasses inspirantes pour compléter ses compétences ou de projets concrets et pro-bono pour consolider ses acquis, nous voulons faire de Coda Libre une communauté féminine ouverte, ambitieuse et sans faux-semblants.</p>
+        <p>Oui, c’est plus dur pour les femmes. Non, ce n’est pas une fatalité. Et non, Instagram et les médias sociaux ne reflètent pas la vraie vie! #nobullshit</p>
+
+        <p>Vous avez appris à coder et vous ne voulez pas gravir seule la montagne devant vous ? Vous travaillez dans les métiers du numérique et avez des compétences à partager ?
+        Vous vous reconnaissez dans notre projet et souhaitez nous aider?
         </p>
-     <!--    <p>Issues d’univers différents et complémentaires, après avoir parfois amorcé des changements de caps grâce à des formations accélérées, nous nous sommes retrouvées propulsées dans un monde majoritairement masculin où il peut être difficile de trouver ses marques.</p> -->
-  <!--       <p>Nous avons voulu créer un cadre d’entraide et de partage qui nous permette de poursuivre l’ambition qui nous a motivées à aller vers les métiers du numériques et de parfois changer de voie et de vie.</p>
-
-   -->
-        <p>Au travers de mentorat pour partager son parcours, de masterclasses inspirantes pour compléter ses compétences ou de projets concrets et pro-bono pour consolider ses acquis, nous voulons faire de Coda Libre une communauté féminine ouverte, ambitieuse et sans faux-semblants #nobullshit</p>
-        <p>Vous avez appris à coder et vous ne voulez pas gravir seule la montagne devant vous ? Vous travaillez dans les métiers du numérique et avez des compétences à partager ?</p>
-        <%= link_to "Rejoignez-nous" %>
-
-
-
-       <!--  <p><strong>CodaLibre</strong> est un <strong>collectif féminin</strong> fondé par des anciennes élèves du <%#= link_to "Wagon", "https://www.lewagon.com/fr", :target => "_blank" %>, une formation accélérée de développement web à destination de personnes sans expérience technique préalable. Toutes issues de formations différentes et désireuses de poursuivre dans la tech, nous avons décidé de nous <strong>rassembler</strong> pour nous soutenir et pouvoir avancer dans cette nouvelle vie avec la sécurité de ne pas être seules.<br>
-        <br>
-        Notre <strong>ambition</strong> est d’offrir un <strong>cadre d’échange et d’entraide</strong> aux femmes diplômées du Wagon qui recherchent ce même soutien dans leur nouvelle vie professionnelle. <br>
-        <br>
-        Parce qu’il y a <strong>trop peu de femmes dans la tech</strong>, et que pour être plus nombreuses, il faut se soutenir, échanger, créer ensemble.<br>
-        <br>
-        <strong>CodaLibre</strong>, c’est un <strong>espace d’échange et de soutien bienveillant</strong>, sans jugement. Ce sont aussi des <strong>événements</strong> pour se rencontrer, partager nos expériences, s’associer pour de nouveaux projets. Mais c’estsurtout une <strong>communauté de femmes</strong> avec des expériences riches et diversifiées qui souhaitent faire bouger les lignes (de code).<br>
-        <br>
-        <span class="italic">Parce que tout seul on va plus vite, mais ensemble on va plus loin.</span></p> -->
-      <!-- </div> -->
-    </div>
-      <%= link_to "#nos-membres" do %>
+      </div>
+      <%= link_to "Contactez-nous !", "#contactez-nous" %>
+      <%= link_to "#nos-actions" do %>
         <i class="fas fa-angle-down scroll-down under-text-arrow"></i>
       <% end %>
   </div>
 
-  <a name="nos-membres"></a>
-  <div class="banner-full background-homepage-3">
-    <div class="banner-content width-70">
-      <!-- <div class="width-70"> -->
-        <div class="banner-title">
-          <h3>Nos membres</h3>
-          <div class="underline pink"></div>
-        </div>
-        <p><strong>CodaLibre</strong> rassemble des jeunes femmes <strong>venues d’horizons différents</strong>. Ecoles de commerce, étudiantes en linguistique, expertes du monde de la finance, startupeuses... Chacune possède un champ de compétences propre et complémentaire. </p>
 
-        <!-- membres -->
-<!--       </div> -->
-    </div>
-    <%= link_to "#nos-actions" do %>
-      <i class="fas fa-angle-down scroll-down under-text-arrow"></i>
-    <% end %>
-  </div>
 
   <a name="nos-actions"></a>
   <div class="banner-full background-homepage-2">
@@ -72,6 +47,25 @@
         <div class="banner-title">
           <h3>Nos actions</h3>
           <div class="underline yellow"></div>
+        </div>
+        <div>
+          <div class="text-center">
+            <img src="" alt="">
+            <h2>MENTORAT</h2>
+            <p>Nous croyons au partage d'expérience pour progresser. Chaque membre peut être mentorée par une femme dont le parcours peut l'inspirer. Une relation régulière se met en place, afin d'enrichir chacune. </p>
+          </div>
+          <div class="text-center">
+            <img src="" alt="">
+            <h2>MASTERCLASSES</h2>
+            <p>Nous avons toutes soif d'apprendre, développer de nouvelles compétences ou consolider nos acquis. Chaque mois, nous organisons des interventions pratiques ou inspirantes, pour constamment progresser, échanger, s'enrichir.</p>
+            <%= link_to "Nos évènements", "#" %>
+          </div>
+          <div class="text-center">
+            <img src="" alt="">
+            <h2>PROJET PRO-BONO</h2>
+            <p>Issues de formations courtes (bootcamps tech), nous voulons pouvoir consolider nos acquis, tout en donnant un sens à nos projets. Nous mettons en place des partenariats avec des associations afin de les aider à développer leur présence numérique.</p>
+            <%= link_to "Nos projets", "#{}" %>
+          </div>
         </div>
       <!-- </div> -->
     </div>
