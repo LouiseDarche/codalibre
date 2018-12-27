@@ -8,10 +8,12 @@
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
-    <link href="https://fonts.googleapis.com/css?family=Delius+Unicase:400,700|Roboto:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,900|Open+Sans|Yeseva+One" rel="stylesheet">
+
     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
   </head>
   <body>
+    <%= render 'navbar' %>
     <%= yield %>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>

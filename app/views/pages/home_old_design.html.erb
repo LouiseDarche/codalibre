@@ -1,25 +1,26 @@
-<a href="#homepage"></a>
-<header>
-  <h1>Le collectif d'entraide féminine dans la tech</h1>
-  <p>Une communauté bienveillante dans laquelle affirmer son projet, progresser et échanger, sans bullshit</p>
-  <p><%= link_to "nous contacter", "#nous-contacter" %></p>
-  <%= link_to "#qui-nous-sommes" do %>
-    <i class="fas fa-angle-down scroll-down"></i>
-    <!-- <div class="down-arrow">
-      <div class="band left"></div>
-      <div class="band right"></div>
-    </div> -->
-  <% end %>
-</header>
+<div class="container-homepage">
+  <%= render 'navbar' %>
+  <a href="#homepage"></a>
+  <header class="full-page-banner background-homepage" >
+    <h1 class="white">Le collectif d'entraide féminine dans la tech</h1>
+    <p>Une communauté bienveillante dans laquelle affirmer son projet, progresser et échanger, sans bullshit</p>
+    <p><%= link_to "nous contacter", "#nous-contacter" %></p>
+    <%= link_to "#qui-nous-sommes" do %>
+      <i class="fas fa-angle-down scroll-down"></i>
+      <!-- <div class="down-arrow">
+        <div class="band left"></div>
+        <div class="band right"></div>
+      </div> -->
+    <% end %>
+  </header>
 
-<div class='home-container'>
   <a name="qui-nous-sommes"></a>
-  <div class='information-block'>
-    <div>
+  <div class="banner-full background-homepage-2">
+    <div class="banner-content width-70">
       <!-- <div class="width-70"> -->
-        <div>
+        <div class="banner-title">
           <h3>Qui nous sommes</h3>
-          <div></div>
+          <div class="underline yellow"></div>
         </div>
         <p>Coda Libre est un collectif de femmes dont l'ambition est d’offrir un cadre bienveillant permettant à chacune de valoriser ses expériences et approfondir ses connaissances dans les métiers du numérique.</p>
 
@@ -41,26 +42,26 @@
 
 
   <a name="nos-actions"></a>
-  <div class='information-block'>
-    <div>
+  <div class="banner-full background-homepage-2">
+    <div class="banner-content">
       <!-- <div class="width-70"> -->
-        <div>
+        <div class="banner-title">
           <h3>Nos actions</h3>
-          <div></div>
+          <div class="underline yellow"></div>
         </div>
-        <div id="actions-display-block">
-          <div class="flex-column-align-items">
+        <div class="flex">
+          <div class="text-center">
             <img src="" alt="">
             <h2>MENTORAT</h2>
             <p>Nous croyons au partage d'expérience pour progresser. Chaque membre peut être mentorée par une femme dont le parcours peut l'inspirer. Une relation régulière se met en place, afin d'enrichir chacune. </p>
           </div>
-          <div class="flex-column-align-items">
+          <div class="text-center">
             <img src="" alt="">
             <h2>MASTERCLASSES</h2>
             <p>Nous avons toutes soif d'apprendre, développer de nouvelles compétences ou consolider nos acquis. Chaque mois, nous organisons des interventions pratiques ou inspirantes, pour constamment progresser, échanger, s'enrichir.</p>
             <%= link_to "Nos évènements", "#" %>
           </div>
-          <div class="flex-column-align-items">
+          <div class="text-center">
             <img src="" alt="">
             <h2>PROJET PRO-BONO</h2>
             <p>Issues de formations courtes (bootcamps tech), nous voulons pouvoir consolider nos acquis, tout en donnant un sens à nos projets. Nous mettons en place des partenariats avec des associations afin de les aider à développer leur présence numérique.</p>
@@ -75,8 +76,8 @@
   </div>
 
   <a name="nous-contacter"></a>
-  <div class='information-block'>
-    <div>
+  <div class="banner-full background-homepage-3">
+    <div class="banner-content width-70">
       <!-- <div class="width-70"> -->
         <div class="banner-title">
           <h3>Nous contacter</h3>
